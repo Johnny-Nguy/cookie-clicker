@@ -1,7 +1,7 @@
 import './App.css';
 
 function App() {
-  const imageUrl = "https://cdn.discordapp.com/attachments/762762709963112502/1204912079820034129/image0.jpg?ex=65d674d2&is=65c3ffd2&hm=8f645cd9ad9ab77b3f26f7f534fa58c7c206ee74630d56fc7cb084052a20e57e&";
+  const imageUrl = "https://famouscookies.com/wp-content/uploads/2020/11/Famous-Cookie-Cocolate-Chip-21-1600x1600-1.png";
 
   return (
     <div className="App">
