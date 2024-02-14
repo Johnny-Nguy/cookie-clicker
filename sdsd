@@ -1,0 +1,38 @@
+import style from './style';
+import React from "react";
+
+class Cookie extends React.Component {
+  state = {
+    score: 0,
+  };
+
+  Add = () => {
+    this.setState ({ score: this.state.score + 1 });
+  }
+
+  Reset = () => {
+    this.setState ({score: 0});
+  } 
+
+return (
+  <div>
+  <button style={style.cookie} onClick={this.Add}>
+    <img
+      src="https://famouscookies.com/wp-content/uploads/2020/11/Famous-Cookie-Cocolate-Chip-21-1600x1600-1.png"
+      style={{ width: '500px', height: '500px' }}
+    />
+  </button>
+  <div>
+    <font size="100" style={style.label}>
+      clicks = {this.state.score}
+    </font>
+  </div>
+  <button style={style.reset} onClick={this.Reset}>
+    Click to reset cookies
+  </button>
+  </div>
+)
+  
+}
+
+export default Cookie;
