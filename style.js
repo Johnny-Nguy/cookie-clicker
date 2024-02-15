@@ -1,28 +1,17 @@
 const style = {
     cookie: {
-        marginLeft: 500,
+        marginLeft: 720,
         marginTop: 100,
         padding: 0,
         width: 0,
         height: 0,
     },
-    inputGroup: {
-        marginBottom: 10
-    },
-    input: {
-        backgroundColor: "#EFEFFF",
-        marginLeft: 10
-    },
-    error: {
-        color: "red",
-        margin: 5
-    },
     label:{
-        marginLeft: 700,
+        marginLeft: 850,
     },
     reset:{
-        marginLeft: 720,
+        marginLeft: 900,
     }
 };
-
+//sets location of all things on screen
 export default style;
